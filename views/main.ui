@@ -25,13 +25,13 @@
      <widget class="QFrame" name="frame_10">
       <property name="minimumSize">
        <size>
-        <width>200</width>
+        <width>150</width>
         <height>0</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>200</width>
+        <width>150</width>
         <height>16777215</height>
        </size>
       </property>
@@ -48,21 +48,29 @@ border-radius:20px;</string>
       <widget class="QLabel" name="label">
        <property name="geometry">
         <rect>
-         <x>20</x>
+         <x>0</x>
          <y>40</y>
-         <width>55</width>
-         <height>16</height>
+         <width>141</width>
+         <height>31</height>
         </rect>
        </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string>Florería Taylor</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
        </property>
       </widget>
       <widget class="QFrame" name="frame_11">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>180</y>
+         <x>0</x>
+         <y>169</y>
          <width>151</width>
          <height>41</height>
         </rect>
@@ -93,8 +101,8 @@ border-radius:20px;</string>
       <widget class="QFrame" name="frame_12">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>250</y>
+         <x>0</x>
+         <y>240</y>
          <width>147</width>
          <height>38</height>
         </rect>
@@ -125,8 +133,8 @@ border-radius:20px;</string>
       <widget class="QFrame" name="frame_13">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>310</y>
+         <x>0</x>
+         <y>300</y>
          <width>147</width>
          <height>38</height>
         </rect>
@@ -157,8 +165,8 @@ border-radius:20px;</string>
       <widget class="QFrame" name="frame_14">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>370</y>
+         <x>0</x>
+         <y>350</y>
          <width>147</width>
          <height>38</height>
         </rect>
@@ -189,8 +197,8 @@ border-radius:20px;</string>
       <widget class="QFrame" name="frame_15">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>420</y>
+         <x>0</x>
+         <y>410</y>
          <width>147</width>
          <height>38</height>
         </rect>
@@ -221,8 +229,8 @@ border-radius:20px;</string>
       <widget class="QFrame" name="frame_16">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>470</y>
+         <x>0</x>
+         <y>460</y>
          <width>147</width>
          <height>38</height>
         </rect>
@@ -256,15 +264,19 @@ border-radius:20px;</string>
      <widget class="QFrame" name="frame_2">
       <property name="minimumSize">
        <size>
-        <width>500</width>
+        <width>600</width>
         <height>0</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>500</width>
+        <width>600</width>
         <height>16777215</height>
        </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:white;
+border-radius:20px;</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
@@ -301,6 +313,10 @@ border-radius:20px;</string>
           </item>
           <item>
            <widget class="QPushButton" name="pushButton_9">
+            <property name="styleSheet">
+             <string notr="true">
+border-radius:20px;</string>
+            </property>
             <property name="text">
              <string>Undo</string>
             </property>
@@ -315,6 +331,10 @@ border-radius:20px;</string>
           </item>
           <item>
            <widget class="QPushButton" name="pushButton_10">
+            <property name="styleSheet">
+             <string notr="true">
+border-radius:20px;</string>
+            </property>
             <property name="text">
              <string>Redo</string>
             </property>
@@ -341,7 +361,7 @@ border-radius:20px;</string>
           <item>
            <widget class="QLabel" name="label_4">
             <property name="text">
-             <string>Flower List</string>
+             <string>💐Flower List</string>
             </property>
            </widget>
           </item>
@@ -349,9 +369,13 @@ border-radius:20px;</string>
            <widget class="QLineEdit" name="lineEdit">
             <property name="maximumSize">
              <size>
-              <width>100</width>
+              <width>200</width>
               <height>16777215</height>
              </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:#f6f6f6;
+border-radius:20px;</string>
             </property>
             <property name="inputMask">
              <string>🔍</string>
@@ -372,17 +396,28 @@ border-radius:20px;</string>
          <widget class="QFrame" name="frame_7">
           <property name="geometry">
            <rect>
-            <x>10</x>
-            <y>10</y>
+            <x>0</x>
+            <y>0</y>
             <width>200</width>
-            <height>122</height>
+            <height>281</height>
            </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
           </property>
           <property name="maximumSize">
            <size>
             <width>200</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#f6f6f6;
+border-radius:20px;
+</string>
           </property>
           <property name="frameShape">
            <enum>QFrame::StyledPanel</enum>
@@ -393,11 +428,20 @@ border-radius:20px;</string>
           <layout class="QVBoxLayout" name="verticalLayout_3">
            <item>
             <widget class="QLabel" name="label_5">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>100</height>
+              </size>
+             </property>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>50</height>
+               <height>100</height>
               </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color:white</string>
              </property>
              <property name="text">
               <string>TextLabel</string>
@@ -406,6 +450,18 @@ border-radius:20px;</string>
            </item>
            <item>
             <widget class="QFrame" name="frame_9">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>50</height>
+              </size>
+             </property>
              <property name="frameShape">
               <enum>QFrame::StyledPanel</enum>
              </property>
@@ -415,6 +471,10 @@ border-radius:20px;</string>
              <layout class="QHBoxLayout" name="horizontalLayout_4">
               <item>
                <widget class="QPushButton" name="pushButton_7">
+                <property name="styleSheet">
+                 <string notr="true">background-color:#9d9cd9;
+border-raduis:20px;</string>
+                </property>
                 <property name="text">
                  <string>-</string>
                 </property>
@@ -425,6 +485,10 @@ border-radius:20px;</string>
               </item>
               <item>
                <widget class="QPushButton" name="pushButton_8">
+                <property name="styleSheet">
+                 <string notr="true">background-color:#9d9cd9;
+border-raduis:20px;</string>
+                </property>
                 <property name="text">
                  <string>+</string>
                 </property>
@@ -438,17 +502,20 @@ border-radius:20px;</string>
              <property name="minimumSize">
               <size>
                <width>0</width>
-               <height>10</height>
+               <height>15</height>
               </size>
              </property>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>10</height>
+               <height>15</height>
               </size>
              </property>
              <property name="text">
               <string>Peonies</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
              </property>
             </widget>
            </item>
@@ -457,11 +524,27 @@ border-radius:20px;</string>
          <widget class="QFrame" name="frame_8">
           <property name="geometry">
            <rect>
-            <x>220</x>
-            <y>20</y>
-            <width>120</width>
-            <height>80</height>
+            <x>210</x>
+            <y>10</y>
+            <width>200</width>
+            <height>271</height>
            </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#f6f6f6;
+border-radius:20px;</string>
           </property>
           <property name="frameShape">
            <enum>QFrame::StyledPanel</enum>
@@ -469,6 +552,222 @@ border-radius:20px;</string>
           <property name="frameShadow">
            <enum>QFrame::Raised</enum>
           </property>
+          <widget class="QLabel" name="label_14">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>30</y>
+             <width>141</width>
+             <height>100</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:white;
+</string>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+          <widget class="QFrame" name="frame_17">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>150</y>
+             <width>155</width>
+             <height>50</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_11">
+            <item>
+             <widget class="QPushButton" name="pushButton_11">
+              <property name="styleSheet">
+               <string notr="true">background-color:#9d9cd9;
+border-raduis:20px;</string>
+              </property>
+              <property name="text">
+               <string>-</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_3"/>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_12">
+              <property name="styleSheet">
+               <string notr="true">background-color:#9d9cd9;
+border-raduis:20px;</string>
+              </property>
+              <property name="text">
+               <string>+</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QLabel" name="label_15">
+           <property name="geometry">
+            <rect>
+             <x>60</x>
+             <y>230</y>
+             <width>81</width>
+             <height>15</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>15</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>15</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>Lily</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QFrame" name="frame_18">
+          <property name="geometry">
+           <rect>
+            <x>420</x>
+            <y>10</y>
+            <width>151</width>
+            <height>271</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:#f6f6f6;
+border-radius:20px;</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="label_18">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>131</width>
+             <height>100</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:white;</string>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_19">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>220</y>
+             <width>55</width>
+             <height>10</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>10</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>10</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QFrame" name="frame_19">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>150</y>
+             <width>151</width>
+             <height>50</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+          </widget>
          </widget>
         </widget>
        </item>
@@ -480,6 +779,45 @@ border-radius:20px;</string>
          <property name="frameShadow">
           <enum>QFrame::Raised</enum>
          </property>
+         <widget class="QLabel" name="label_16">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>30</y>
+            <width>55</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_17">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>70</y>
+            <width>55</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_20">
+          <property name="geometry">
+           <rect>
+            <x>520</x>
+            <y>10</y>
+            <width>55</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
         </widget>
        </item>
       </layout>
@@ -489,13 +827,13 @@ border-radius:20px;</string>
      <widget class="QFrame" name="frame_3">
       <property name="minimumSize">
        <size>
-        <width>300</width>
+        <width>250</width>
         <height>0</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>300</width>
+        <width>250</width>
         <height>16777215</height>
        </size>
       </property>
@@ -513,14 +851,68 @@ border-radius:20px;</string>
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>60</y>
-         <width>55</width>
-         <height>16</height>
+         <y>50</y>
+         <width>91</width>
+         <height>31</height>
         </rect>
        </property>
-       <property name="text">
-        <string>TextLabel</string>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
        </property>
+       <property name="text">
+        <string>Cart</string>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_20">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:#f6f6f6;
+border-radius:20px;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_21">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>10</y>
+          <width>55</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_22">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>10</y>
+          <width>55</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
       </widget>
      </widget>
     </item>
