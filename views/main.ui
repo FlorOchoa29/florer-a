@@ -36,7 +36,7 @@
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color:#c2c1e7;
+       <string notr="true">background-color:#706f9a;
 border-radius:20px;</string>
       </property>
       <property name="frameShape">
@@ -275,7 +275,7 @@ border-radius:20px;</string>
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color:white;
+       <string notr="true">background-color:#d5d5ef;
 border-radius:20px;</string>
       </property>
       <property name="frameShape">
@@ -415,7 +415,7 @@ border-radius:20px;</string>
            </size>
           </property>
           <property name="styleSheet">
-           <string notr="true">background-color:#f6f6f6;
+           <string notr="true">background-color:white;
 border-radius:20px;
 </string>
           </property>
@@ -441,7 +441,7 @@ border-radius:20px;
               </size>
              </property>
              <property name="styleSheet">
-              <string notr="true">background-color:white</string>
+              <string notr="true">background-color:#f6f6f6;</string>
              </property>
              <property name="text">
               <string>TextLabel</string>
@@ -461,6 +461,9 @@ border-radius:20px;
                <width>16777215</width>
                <height>50</height>
               </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color:#f6f6f6;</string>
              </property>
              <property name="frameShape">
               <enum>QFrame::StyledPanel</enum>
@@ -543,7 +546,7 @@ border-raduis:20px;</string>
            </size>
           </property>
           <property name="styleSheet">
-           <string notr="true">background-color:#f6f6f6;
+           <string notr="true">background-color:white;
 border-radius:20px;</string>
           </property>
           <property name="frameShape">
@@ -574,7 +577,7 @@ border-radius:20px;</string>
             </size>
            </property>
            <property name="styleSheet">
-            <string notr="true">background-color:white;
+            <string notr="true">background-color:#f6f6f6;
 </string>
            </property>
            <property name="text">
@@ -601,6 +604,10 @@ border-radius:20px;</string>
              <width>16777215</width>
              <height>50</height>
             </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:#f6f6f6;
+</string>
            </property>
            <property name="frameShape">
             <enum>QFrame::StyledPanel</enum>
@@ -675,7 +682,7 @@ border-raduis:20px;</string>
            </rect>
           </property>
           <property name="styleSheet">
-           <string notr="true">background-color:#f6f6f6;
+           <string notr="true">background-color:white;
 border-radius:20px;</string>
           </property>
           <property name="frameShape">
@@ -706,7 +713,8 @@ border-radius:20px;</string>
             </size>
            </property>
            <property name="styleSheet">
-            <string notr="true">background-color:white;</string>
+            <string notr="true">background-color:#f6f6f6;
+</string>
            </property>
            <property name="text">
             <string>TextLabel</string>
@@ -734,7 +742,7 @@ border-radius:20px;</string>
             </size>
            </property>
            <property name="text">
-            <string>TextLabel</string>
+            <string>Camellia</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignCenter</set>
@@ -745,7 +753,7 @@ border-radius:20px;</string>
             <rect>
              <x>0</x>
              <y>150</y>
-             <width>151</width>
+             <width>155</width>
              <height>50</height>
             </rect>
            </property>
@@ -761,12 +769,42 @@ border-radius:20px;</string>
              <height>50</height>
             </size>
            </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:#f6f6f6;</string>
+           </property>
            <property name="frameShape">
             <enum>QFrame::StyledPanel</enum>
            </property>
            <property name="frameShadow">
             <enum>QFrame::Raised</enum>
            </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_12">
+            <item>
+             <widget class="QPushButton" name="pushButton_13">
+              <property name="styleSheet">
+               <string notr="true">background-color:#9d9cd9;
+border-raduis:20px;</string>
+              </property>
+              <property name="text">
+               <string>-</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_4"/>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_14">
+              <property name="styleSheet">
+               <string notr="true">background-color:#9d9cd9;
+border-raduis:20px;</string>
+              </property>
+              <property name="text">
+               <string>+</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
           </widget>
          </widget>
         </widget>
@@ -908,6 +946,10 @@ border-radius:20px;</string>
           <width>55</width>
           <height>16</height>
          </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:#9d9cd9;
+border-raduis:20px;</string>
         </property>
         <property name="text">
          <string>TextLabel</string>
