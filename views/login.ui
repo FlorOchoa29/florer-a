@@ -70,7 +70,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="lineEdit"/>
+          <widget class="QLineEdit" name="txt_username"/>
          </item>
          <item>
           <widget class="QLabel" name="label_2">
@@ -92,14 +92,14 @@
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="lineEdit_2">
+          <widget class="QLineEdit" name="txt_password">
            <property name="echoMode">
             <enum>QLineEdit::Password</enum>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="Ingresar">
+          <widget class="QPushButton" name="btn_login">
            <property name="text">
             <string>INGRESAR</string>
            </property>
